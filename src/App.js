@@ -9,7 +9,8 @@ const KEY = "AIzaSyDImoYpehiJ9agbhueUW81KqLXfJ69sRUM";
 function App() {
 
 	const [items, setItems] = useState(0);
-	const [centerVideoID, setCenterVideo] = useState(0);
+	const [centerVideoID, setCenterVideoID] = useState(0);
+	const [centerVideoDescription, setcenterVideoDescription] = useState(0);
 
     function onSubmit(term) {
         api.get('/search', {
@@ -22,7 +23,8 @@ function App() {
         })
         .then((response)=>{
         	setItems(response.data.items);
-        	setCenterVideo(response.data.items[0].id.videoId);
+        	setCenterVideoID(response.data.items[0].id.videoId);
+        	setcenterVideoDescription(response.data.items[0].snippet.title);
         })
         .catch((err) => console.log(err));
     }
@@ -30,11 +32,11 @@ function App() {
     function renderContent(){
     	if (items){
 				return <>
-				<div className="col-9 border border-dark">
-				<CenterVideo videoId={centerVideoID}/>
+				<div className="col-sm-9 ">
+				<CenterVideo videoId={centerVideoID} desc={centerVideoDescription}/>
 				</div>
-				<div className="col-3 border border-danger">
-				<SideVideos items={items} setCenterVideo={setCenterVideo}/>
+				<div className="col-sm-3  text-center">
+				<SideVideos items={items} setCenterVideo={setCenterVideoID}/>
 				</div>
 				</>;
     	}

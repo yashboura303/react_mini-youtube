@@ -1,0 +1,10 @@
+*{
+	box-sizing: border-box;
+}
+.card:hover{
+	cursor: pointer;
+}
+
+.card-body p{
+	font-size: 0.8rem;
+}
