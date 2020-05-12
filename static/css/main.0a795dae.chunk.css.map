@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.css","App.css"],"names":[],"mappings":"AAAA,EACC,qBACD,CACA,YACC,cACD,CAEA,aACC,eACD,CCTA,WACC,cACD","file":"main.0a795dae.chunk.css","sourcesContent":["*{\n\tbox-sizing: border-box;\n}\n.card:hover{\n\tcursor: pointer;\n}\n\n.card-body p{\n\tfont-size: 0.8rem;\n}",".img:hover{\n\tcursor: pointer;\n}"]}

@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react_mini-youtube/static/css/main.0a795dae.chunk.css",
+    "main.js": "/react_mini-youtube/static/js/main.376633c7.chunk.js",
+    "main.js.map": "/react_mini-youtube/static/js/main.376633c7.chunk.js.map",
+    "runtime-main.js": "/react_mini-youtube/static/js/runtime-main.e1cb6eee.js",
+    "runtime-main.js.map": "/react_mini-youtube/static/js/runtime-main.e1cb6eee.js.map",
+    "static/js/2.9a5a45ec.chunk.js": "/react_mini-youtube/static/js/2.9a5a45ec.chunk.js",
+    "static/js/2.9a5a45ec.chunk.js.map": "/react_mini-youtube/static/js/2.9a5a45ec.chunk.js.map",
+    "index.html": "/react_mini-youtube/index.html",
+    "precache-manifest.db60c977785c95b2d3564c449247fa87.js": "/react_mini-youtube/precache-manifest.db60c977785c95b2d3564c449247fa87.js",
+    "service-worker.js": "/react_mini-youtube/service-worker.js",
+    "static/css/main.0a795dae.chunk.css.map": "/react_mini-youtube/static/css/main.0a795dae.chunk.css.map",
+    "static/js/2.9a5a45ec.chunk.js.LICENSE.txt": "/react_mini-youtube/static/js/2.9a5a45ec.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e1cb6eee.js",
+    "static/js/2.9a5a45ec.chunk.js",
+    "static/css/main.0a795dae.chunk.css",
+    "static/js/main.376633c7.chunk.js"
+  ]
+}
